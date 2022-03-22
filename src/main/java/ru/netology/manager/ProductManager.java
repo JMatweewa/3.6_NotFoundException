@@ -20,6 +20,10 @@ public class ProductManager {
         repository.save(product);
     }
 
+    public void findById(int id) {
+        repository.findById(id);
+    }
+
     public void removeById(int id) {
         repository.removeById(id);
     }

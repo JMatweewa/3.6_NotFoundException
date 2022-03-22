@@ -40,7 +40,6 @@ class ProductManagerTest {
 
     @Test
     public void shouldDeletedExistentId() {
-
         manager.removeById(2);
 
         Assertions.assertThrows(NotFoundException.class, () -> {
